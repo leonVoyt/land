@@ -3,7 +3,7 @@ import Slider from "./components/ReactCarusel";
 import "./styles.css";
 const Examples = () => {
   return (
-    <section className="Examples__container">
+    <section className="Examples__container" id="cases">
       <BlockHeader
         mainText={"Реалізовані ідеї наших клієнтів"}
         subMainText={

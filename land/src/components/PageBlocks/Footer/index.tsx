@@ -1,7 +1,10 @@
+import FaceBookSVG from "../../../assets/images/svg/FaceBook";
+import InstagramSVG from "../../../assets/images/svg/Instagram";
+import LinkeInSVG from "../../../assets/images/svg/LinkedIn";
 import "./styles.css";
 const Footer = () => {
   return (
-    <div className="footer">
+    <footer className="footer" id="contacts">
       <div className="footer__info">
         <div className="footer__info--block">
           <p className="logo">COMMIT</p>
@@ -30,9 +33,13 @@ const Footer = () => {
       <hr className="footer__hr" />
       <div className="footer__social--media">
         <span>Copyright © 2022 BRIX Templates | All Rights Reserved </span>
-        <span>1</span>
+        <span className="footer__social--media-links">
+          <LinkeInSVG />
+          <InstagramSVG />
+          <FaceBookSVG />
+        </span>
       </div>
-    </div>
+    </footer>
   );
 };
 export default Footer;

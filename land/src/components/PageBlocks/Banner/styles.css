@@ -3,6 +3,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-color: #e3000b;
+  background-size: contain;
   height: 920px;
   border-radius: 30px;
   overflow: hidden;
@@ -10,6 +11,9 @@
   flex-direction: column;
   justify-content: space-between;
   padding: 28px;
+}
+.burger-icon {
+  display: none;
 }
 .banner__header {
   display: flex;
@@ -60,4 +64,39 @@
   color: #f7f5f5;
   margin-top: 0px;
   line-height: 48px;
+}
+@media screen and (max-width: 1024px) {
+  .burger-icon {
+    display: block;
+  }
+  .banner {
+    height: 740px;
+    background-image: url("../../../assets/images/mainBannerMobile.png");
+    background-position-y: calc(50% - 20px);
+
+    padding: 40px 10px;
+  }
+  .banner__header-logo {
+    font-size: 32px;
+    padding: 0;
+    margin-left: -30px;
+  }
+  .banner__header-navigation {
+    display: none;
+  }
+  .banner__text--container {
+    padding: 0 10px;
+  }
+  .mainButtonWhite {
+    display: none;
+  }
+  .banner__title {
+    font-size: 48px;
+  }
+  .banner__subTitle {
+    margin-top: 24px;
+    font-size: 22px;
+    line-height: 28px;
+    letter-spacing: -0.3px;
+  }
 }

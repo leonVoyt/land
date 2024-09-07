@@ -8,8 +8,8 @@ function App() {
   return (
     <section className="main">
       <Banner />
-      {/* <AboutUs />
-      <Examples /> */}
+      <AboutUs />
+      <Examples />
       <Footer />
     </section>
   );

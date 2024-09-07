@@ -12,6 +12,8 @@
   display: flex;
   justify-content: space-between;
   width: 100%;
+  flex-wrap: wrap;
+  gap: 40px;
 }
 .footer__info--block {
   display: flex;
@@ -23,6 +25,7 @@
 }
 .footer__info--block-container {
   display: flex;
+  flex-wrap: wrap;
   gap: 40px;
 }
 .footer__info--block-second {
@@ -43,11 +46,17 @@
   width: 100%;
   justify-content: space-between;
   color: var(--color-grey);
+  gap: 10px;
+}
+.footer__social--media-links {
+  display: flex;
+  gap: 22px;
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 768px) {
   .footer {
     padding: 20px;
+    margin-top: -20px;
   }
   .footer__info {
     flex-direction: column;

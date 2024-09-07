@@ -1,8 +1,19 @@
-const BlockHeader = ({ title, mainText, subMainText }) => {
+import { FC } from "react";
+import { chevron } from "../../assets/images";
+import "./styles.css";
+
+interface BlockHeader {
+  title: string;
+  subMainText: string;
+  mainText: string;
+}
+
+const BlockHeader: FC<BlockHeader> = ({ title, mainText, subMainText }) => {
   return (
     <div className="aboutUs__header">
       <div className="aboutUs__header--title">
-        <p className="title">{title}с</p>
+        <img src={chevron} alt="chevron" />
+        <p className="title">{title}</p>
       </div>
       <div className="aboutUs__header--first">
         <p>{mainText}</p>

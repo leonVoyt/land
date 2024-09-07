@@ -1,6 +1,10 @@
+import { FC } from "react";
 import "./styles.css";
-
-const InfoBlock = ({ textMain, textSecond }) => {
+interface InfoBlock {
+  textMain: string;
+  textSecond: string;
+}
+const InfoBlock: FC<InfoBlock> = ({ textMain, textSecond }) => {
   return (
     <div className="aboutUs__stats--info-block">
       <p className="textRed">{textMain}</p>

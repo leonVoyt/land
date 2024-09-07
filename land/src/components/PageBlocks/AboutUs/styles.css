@@ -1,30 +1,9 @@
-.aboutUs__header {
-  display: flex;
-  gap: 80px;
-  padding: 80px 40px;
-}
-.aboutUs__header--title {
-  font-size: 24px;
-  text-transform: uppercase;
-  color: var(--color-red);
-}
-.aboutUs__header--first {
-  font-size: 48px;
-  line-height: 48px;
-  color: var(--color-black);
-  max-width: 43%;
-}
-.aboutUs__header--second {
-  font-size: 20px;
-  color: var(--color-grey);
-  max-width: 30%;
-  line-height: 27px;
-}
 /*  */
 .aboutUs__stats {
   display: flex;
   gap: 20px;
-  height: 582px;
+  min-height: 582px;
+  min-height: 582px;
   margin: 0 40px 40px 40px;
   justify-content: center;
 }
@@ -33,24 +12,73 @@
   max-width: 898px;
 }
 .aboutUs__stats-right {
-  height: 100%;
+  height: 576px;
   display: flex;
-  max-width: 404px;
+  min-width: 404px;
   flex: 1;
   background-color: var(--color-red);
   border-radius: 24px;
+  align-items: flex-start;
+  justify-content: center;
+  overflow: hidden;
+}
+.aboutUs__stats-right img {
+  object-fit: contain;
 }
 
 .aboutUs__stats--info {
   margin-top: 20px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
   gap: 20px;
 }
 .aboutUs__stats--info-block {
   background-color: var(--color-white);
-  width: 439px;
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 48%;
   height: 180px;
   border-radius: 24px;
   padding: 20px;
+}
+@media screen and (max-width: 1024px) {
+  .aboutUs__stats {
+    flex-direction: column-reverse;
+    height: auto;
+    gap: 10px;
+    margin: 0;
+  }
+  .aboutUs__stats-left {
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    max-width: 100%;
+    flex-direction: column;
+  }
+  .aboutUs__stats-right img {
+    object-fit: contain;
+    object-position: 0 -50px;
+    width: 350px;
+  }
+  .aboutUs__stats-right {
+    width: 100%;
+    flex: auto;
+    height: 300px;
+    min-width: auto;
+  }
+  .aboutUs__stats--info-block {
+    height: 136px;
+    flex: 0 0 47%;
+    gap: 8px;
+  }
+  .aboutUs__stats--info {
+    margin: 0;
+  }
+  .textRed {
+    font-size: 40px;
+  }
+  .textBlack {
+    font-size: 20px;
+  }
 }

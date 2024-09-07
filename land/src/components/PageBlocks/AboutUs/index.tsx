@@ -1,3 +1,4 @@
+import { manPicture } from "../../../assets/images";
 import BlockHeader from "../../BlockHeader";
 import InfoBlock from "./components/InfoBlock";
 import StatsLogo from "./components/StatsLogo";
@@ -5,7 +6,7 @@ import "./styles.css";
 
 const AboutUs = () => {
   return (
-    <section>
+    <section id="about">
       <BlockHeader
         mainText={
           "Індивідуальний підхід та гнучкість для створення цифрових рішень"
@@ -27,7 +28,9 @@ const AboutUs = () => {
           </div>
         </div>
 
-        <div className="aboutUs__stats-right"></div>
+        <div className="aboutUs__stats-right">
+          <img src={manPicture} alt="manPicture" />
+        </div>
       </div>
     </section>
   );
