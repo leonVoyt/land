@@ -1,0 +1,27 @@
+.mainButton {
+  color: #e3000b;
+  background-color: transparent;
+  padding: 16.5px 20px;
+  border-radius: 100px;
+  border: 1px solid #606060;
+  font-size: 18px;
+  padding: 16.5px 20px;
+}
+.mainButtonWhite {
+  color: #f7f5f5;
+  background-color: transparent;
+  padding: 16.5px 20px;
+  border-radius: 100px;
+  border: 2px solid #f7f5f5;
+  font-size: 18px;
+  padding: 16.5px 20px;
+  transition: 0.3s;
+}
+.mainButtonWhite:hover {
+  color: #e3000b;
+  background-color: #f7f5f5;
+}
+.mainButton:hover {
+  color: #f7f5f5;
+  background-color: #e3000b;
+}

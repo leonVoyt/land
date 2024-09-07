@@ -1,0 +1,23 @@
+@import url("https://myfonts.ru/myfonts?fonts=mustica-pro");
+@import url("https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@500&family=Syne:wght@700&display=swap");
+@font-face {
+  font-family: "Transforma Mix Medium";
+  font-style: normal;
+  font-weight: 900;
+  src: local("Transforma Mix Medium"),
+    url("./assets/fonts/TransformaMix-Medium.woff") format("woff");
+}
+@font-face {
+  font-family: "Mustica Pro";
+  font-style: normal;
+  font-weight: 600;
+  src: local("Transforma Mix Medium"),
+    url("./assets/fonts/MusticaPro-SemiBold.woff") format("woff");
+}
+:root {
+  --color-red: #e3000b;
+  --color-black: #171313;
+  --color-grey: #606060;
+  --color-white: #f7f5f5;
+}

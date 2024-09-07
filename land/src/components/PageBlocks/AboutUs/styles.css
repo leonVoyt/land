@@ -1,0 +1,56 @@
+.aboutUs__header {
+  display: flex;
+  gap: 80px;
+  padding: 80px 40px;
+}
+.aboutUs__header--title {
+  font-size: 24px;
+  text-transform: uppercase;
+  color: var(--color-red);
+}
+.aboutUs__header--first {
+  font-size: 48px;
+  line-height: 48px;
+  color: var(--color-black);
+  max-width: 43%;
+}
+.aboutUs__header--second {
+  font-size: 20px;
+  color: var(--color-grey);
+  max-width: 30%;
+  line-height: 27px;
+}
+/*  */
+.aboutUs__stats {
+  display: flex;
+  gap: 20px;
+  height: 582px;
+  margin: 0 40px 40px 40px;
+  justify-content: center;
+}
+.aboutUs__stats-left {
+  width: 80%;
+  max-width: 898px;
+}
+.aboutUs__stats-right {
+  height: 100%;
+  display: flex;
+  max-width: 404px;
+  flex: 1;
+  background-color: var(--color-red);
+  border-radius: 24px;
+}
+
+.aboutUs__stats--info {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.aboutUs__stats--info-block {
+  background-color: var(--color-white);
+  width: 439px;
+  height: 180px;
+  border-radius: 24px;
+  padding: 20px;
+}

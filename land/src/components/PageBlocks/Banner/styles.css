@@ -1,0 +1,63 @@
+.banner {
+  background-image: url("../../../assets/images/mainBanner.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #e3000b;
+  height: 920px;
+  border-radius: 30px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 28px;
+}
+.banner__header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.banner__header-navigation {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 227px;
+}
+.banner__header-navigation button {
+  display: flex;
+  background-color: transparent;
+  border: 0;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 600;
+  color: #f7f5f5;
+  cursor: pointer;
+  width: fit-content;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+.banner__header-navigation button.btn-active {
+  opacity: 1;
+}
+.banner__header-navigation button:hover {
+  opacity: 1;
+}
+.banner__header-logo {
+  font-size: 60px;
+  padding: 20px 0;
+}
+/*  */
+.banner__title {
+  font-size: 120px;
+}
+.banner__title strong {
+  line-height: 50px;
+  color: #f7f5f5;
+}
+.banner__subTitle {
+  max-width: 966px;
+
+  font-size: 40px;
+  color: #f7f5f5;
+  margin-top: 0px;
+  line-height: 48px;
+}

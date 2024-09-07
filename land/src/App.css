@@ -1,0 +1,23 @@
+* {
+  font-family: "Mustica Pro", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 1px solid red;
+}
+button {
+  cursor: pointer;
+}
+.logo {
+  font-family: "Syne", sans-serif;
+  color: #f7f5f5;
+}
+.sub--title {
+  font-family: "Darker Grotesqu", sans-serif;
+}
+.title {
+  font-family: "Transforma Mix Medium", sans-serif;
+}
+.main {
+  padding: 20px;
+}

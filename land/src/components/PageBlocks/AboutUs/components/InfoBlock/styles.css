@@ -1,0 +1,8 @@
+.textRed {
+  color: var(--color-red);
+  font-size: 68px;
+}
+.textBlack {
+  color: var(--color-black);
+  font-size: 34px;
+}
